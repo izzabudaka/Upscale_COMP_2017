@@ -16,13 +16,13 @@ public class NewMark{
 
 	private static Map<String, Double> LAB_PERCENTAGE = new HashMap<String, Double>(){{
 		put("28112L", 20.0);
-		put("26122L", (25.0/60)* 100);
+		put("26122L", (25.0/60) * 100);
 		put("26121L", 62.5);
 		put("25212L", 20.0);
 		put("25111L", 30.0);
 		put("24111L", 50.0);
-		put("23422L", 20.0/50.5);
-		put("23421L", 15.0/49.5);
+		put("23422L", (20.0/50.5) * 100);
+		put("23421L", (15.0/49.5) * 100);
 		put("23111L", 30.0);
 		put("28411L", 30.0);
 	}};
